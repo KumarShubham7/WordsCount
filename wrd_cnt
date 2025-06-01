@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Count_Word {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String[] arr = s.trim().split("\\s+"); // Handles multiple spaces
+
+        int count = arr.length;
+        System.out.println("Number of words : " + count);
+    }
+}
